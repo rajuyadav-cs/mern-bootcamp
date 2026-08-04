@@ -1,0 +1,13 @@
+import path from "path";
+import { fileURLToPath } from "url";
+const Path = path.join("D:\Programming\MERN-BOOTCAMP\node.js", "file.js");
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+console.log(Path);
+console.log(path.basename(Path));
+console.log(path.extname("next.js"));
+console.log(path.dirname(Path));
+console.log(path.parse(Path));
+console.log(__filename);
+console.log(__dirname);
+console.log(process.cwd());

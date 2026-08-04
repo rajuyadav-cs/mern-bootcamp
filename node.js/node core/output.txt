@@ -1,0 +1,3 @@
+Hello
+Welcome to Node.js Streams
+Writing using Stream...

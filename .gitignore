@@ -1,2 +1,6 @@
 node.js/node_modules/
 .env
+projects/pawcare/backend/node_modules
+projects/pawcare/backend/.env
+projects/pawcare/frontend/node_modules
+projects/pawcare/frontend/.env.local

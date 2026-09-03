@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutType) {
   return (
     <html lang="en">
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="relative min-h-[89vh] ">{children}</body>
     </html>
   );
 }
